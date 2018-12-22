@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityShouter"
+    android:orientation="vertical">
+
+   <ImageButton
+       android:scaleType="fitCenter"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:src="@drawable/shut_up"
+       android:id="@+id/shutup"
+       android:onClick="sayShutUp">
+   </ImageButton>
+
+    <ImageButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/urlbutt"
+        android:id="@+id/urlbutton"
+        android:scaleType="fitCenter"
+        android:onClick="visitPage">
+    </ImageButton>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/sharebutton"
+        android:onClick="shareIt"
+        android:textSize="30dp"
+        android:text="share"
+        android:layout_gravity="fill_horizontal">
+    </Button>
+
+
+
+</LinearLayout>
